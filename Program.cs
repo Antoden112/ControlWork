@@ -1,11 +1,11 @@
-﻿string[] array1 = new string[] {"1234", "12567", "2", "-2", ":)", "Russia",  "hello", "world", "computer", "oks"};
+﻿string[] array1 = new string[] {"1234", "12567", "2", "-2", ":)", "Russia",  "hello", "Kazan", "world", "computer", "DVA"};
 string[] array2 = new string[array1.Length];
-Console.Write ("Задан следующий массив:  ");
+Console.Write ("Задан массив: ");
 Console.Write ("[");
 WriteArray (array1);
 Console.Write ("]");
 Console.WriteLine ();
-Console.Write ("Из него мы выбрали элементы длинной не более 3 символов:  ");
+Console.Write ("Из него выбраны элементы длинной не более 3 символов: ");
 SecondArrayWithIF(array1, array2);
 WriteArray (array2);
 
