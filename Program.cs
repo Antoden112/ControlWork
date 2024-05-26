@@ -1,4 +1,4 @@
-﻿string[] array1 = new string[] {"1234", "12567", "2", "-2", ":)", "Russia",  "hello", "Kazan", "world", "computer", "DVA"};
+﻿string[] array1 = new string[] {"1234", "12567", "2", "-2", ":-)", "Russia",  "hello", "Kazan", "world", "computer", "DVA"};
 string[] array2 = new string[array1.Length];
 Console.Write ("Задан массив: ");
 Console.Write ("[");
